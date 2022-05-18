@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "13bef857-6616-4c2a-b176-9f1a007cf76f",
+		"name": "WWC - API Serverless",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Items List",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gdmtxsblgd.execute-api.us-east-1.amazonaws.com/items/",
+					"protocol": "https",
+					"host": [
+						"gdmtxsblgd",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items",
+						""
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "\"create\"",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add/update Item",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"2\",\n    \"name\": \"YYYYY new\",\n    \"status\":\"1\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gdmtxsblgd.execute-api.us-east-1.amazonaws.com/items",
+					"protocol": "https",
+					"host": [
+						"gdmtxsblgd",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Item",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"6\",\n    \"name\": \"YYYYY\",\n    \"status\":\"1\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gdmtxsblgd.execute-api.us-east-1.amazonaws.com/items/2",
+					"protocol": "https",
+					"host": [
+						"gdmtxsblgd",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
