@@ -1,5 +1,5 @@
 [![N|Solid](https://pbs.twimg.com/profile_images/1183854219268366336/9SLv5DvR_400x400.jpg)](https://mobile.twitter.com/wwcodeguatemala) 
-# _Conenctando mis metas con una api de python serverless_
+# _Conectando mis metas con una api de python serverless_
 ## Solución
 A continuación encontrarán el step by step de como crear una API Serverless utilizando AWS:
 
