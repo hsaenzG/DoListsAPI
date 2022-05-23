@@ -81,10 +81,10 @@ Para crear una integración
 1. Inicie sesión en la consola de API Gateway en https://console.aws.amazon.com/apigateway.
 2. Elija la API.
 3. Seleccione Integraciones.
-4. Seleccione Administrar integraciones y, a continuación, seleccione Crear.
+4. Seleccione Administrar integraciones y a continuación seleccione Crear.
 5. Omitir Conectar esta integración a una ruta. Esta etapa se completará más adelante.
 6. En Tipo de integración, seleccione Función Lambda.
-7. En Función Lambda, introduzca http-crud-tutorial-function.
+7. En Función Lambda, introduzca toDoListCRUD.
 8. Seleccione Create (Crear).
 
 ### Paso 6: conectar la integración a las rutas
