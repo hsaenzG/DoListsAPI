@@ -45,18 +45,18 @@ Para crear una función Lambda, realice el siguiente procedimiento:
 7. En Nombre del rol, introduzca http-todolist-crud-role.
 8. En Plantillas de políticas, seleccione Simple microservice permissions. Esta política concede a la función Lambda permiso para interactuar con DynamoDB. nota ** Para simplificar el proceso, este tutorial utiliza una política administrada. Como práctica recomendada, se deben crear políticas de IAM propias para otorgar los permisos mínimos requeridos.  
 9. Elija Create function (Crear función).
-10. Abra index.js en el editor de código de la consola y reemplace su contenido con código del file api-lambda.py. Seleccione Implementar para actualizar la función.
+10. Abra lambda_function.py en el editor de código de la consola y reemplace su contenido con código del file api-lambda.py. Seleccione Implementar para actualizar la función.
 
 ### Paso 3: crear una API HTTP
 La API HTTP proporciona un punto de enlace HTTP para su función de Lambda. En este paso, se crea una API vacía. En los siguientes pasos, se configuran rutas e integraciones para conectar la API y la función Lambda.
 
 Para crear una API HTTP
 1. Inicie sesión en la consola de API Gateway en https://console.aws.amazon.com/apigateway.
-2. Seleccione Crear APIy, a continuación, para API HTTP, seleccione Crear.
+2. Seleccione Crear API ya continuación, para API HTTP, seleccione Crear.
 3. En API name (Nombre de la API), escriba toDoListAPI.
 4. Elija Next (Siguiente).
 5. En Configurar rutas, seleccione Siguiente para omitir la creación de rutas. Se crearán rutas más adelante.
-6. Revise la etapa que API Gateway crea y, a continuación, seleccione Siguiente.
+6. Revise la etapa que API Gateway crea y a continuación seleccione Siguiente.
 7. Seleccione Create (Crear).
 
 ### Paso 4: crear rutas
