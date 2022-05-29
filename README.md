@@ -111,7 +111,7 @@ Para obtener la URL para invocar la API
 4. Copie la URL de invocación de la API y reemplacela en las peticiones de la colección del file: WWC - API Serverless.postman_collection.json
 
 ### Paso 8: Eliminar
-Para evitar costos innecesarios, elimine los recursos creados como parte de este ejercicio introductorio. Los siguientes pasos eliminan la API HTTP, la función de Lambda y los recursos asociados.
+Para evitar costos innecesarios, elimine los recursos creados como parte de este ejercicio. Los siguientes pasos eliminan la API HTTP, la función de Lambda y los recursos asociados.
 Para eliminar una tabla de DynamoDB
 1. Abra la consola de DynamoDB en https://console.aws.amazon.com/dynamodb/.
 2. Seleccionar la tabla.
