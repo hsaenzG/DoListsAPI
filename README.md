@@ -12,8 +12,8 @@ para poder realizar el siguiente demo debes poseer lo siguiente:
 - Para probar tu API puedes utilizar Postman instalado en tu ordenador (https://www.postman.com/downloads/) 
 - Puedes ver el video de como realizarlo aqui:
 
-![N|Solid](https://www.youtube.com/watch?v=devsr3JviUw&t=6s&ab_channel=WomenWhoCode) 
-[![API Serverless](https://img.youtube.com/vi/devsr3JviUw&t/0.jpg)](https://www.youtube.com/watch?v=devsr3JviUw&t)
+
+[![API Serverless](https://img.youtube.com/vi/devsr3JviUw/0.jpg)](https://www.youtube.com/watch?v=devsr3JviUw)
  
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
